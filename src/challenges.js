@@ -45,7 +45,7 @@ function footballPoints(wins, ties) {
 }
 
 // Desafio 6
-function highestCount() {
+function highestCount(a) {
 
     // Descobrindo o maior valor do array:
 
@@ -82,10 +82,24 @@ function catAndMouse(mouse, cat1, cat2) {
     }
 }
 
-
 // Desafio 8
-function fizzBuzz() {
-    // seu código aqui
+function fizzBuzz(a) {
+
+    let output = [];
+
+    for (index = 0; index < a.length; index += 1) {
+
+        if (a[index] % 3 === 0 && a[index] % 5 === 0) {
+            output.push('fizzBuzz');
+        } else if (a[index] % 3 === 0) {
+            output.push('fizz');
+        } else if (a[index] % 5 === 0) {
+            output.push('buzz');
+        } else {
+            output.push('bug');
+        }
+    }
+    return output;
 }
 
 // Desafio 9
