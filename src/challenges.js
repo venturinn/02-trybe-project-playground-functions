@@ -9,19 +9,33 @@ function compareTrue(a, b) {
 }
 
 // Desafio 2
-function calcArea() {
-    // seu código aqui
+function calcArea(base, height) {
+
+    return (base * height) / 2;
+
 }
 
 // Desafio 3
 function splitSentence() {
-    // seu código aqui
+
+
+
+
+
 }
 
 // Desafio 4
-function concatName() {
-    // seu código aqui
+function concatName(a) {
+
+    let first = a[0];
+    let last = a[a.length - 1];
+
+    let lastFist = (last + ', ' + first);
+
+    return lastFist
+
 }
+
 
 // Desafio 5
 function footballPoints() {
