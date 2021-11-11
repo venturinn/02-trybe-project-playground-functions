@@ -79,7 +79,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 ## Data de Entrega
 
   - Será `1` dia de projeto.
-  - Data de entrega para avaliação final do projeto: `18/11/2021 - 14:00h`.
+  - Data de entrega para avaliação final do projeto: `19/11/2021 - 14:00h`.
 
 # Instruções para entregar seu projeto
 
