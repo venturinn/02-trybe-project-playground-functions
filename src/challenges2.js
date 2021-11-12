@@ -39,7 +39,7 @@ function generatePhoneNumber(a) {
     // Seguindo com código:
 
     if (a.length != 11) {
-        return 'Array com tamanho incorreto';
+        return 'Array com tamanho incorreto.';
     } else if (negativeNumeber === true) {
         return 'não é possível gerar um número de telefone com esses valores';
     } else {
