@@ -1,7 +1,24 @@
 // Desafio 10
-function techList() {
-    // seu código aqui
+function techList(a, b) {
+
+
+    if (a.length === 0) {
+        return 'Vazio!'
+    } else {
+
+        a.sort();
+        let output = [];
+
+        for (let index = 0; index < a.length; index += 1) {
+
+            output.push({ tech: a[index], name: b });
+
+        }
+        return output
+    }
+
 }
+
 
 // Desafio 11
 
@@ -71,6 +88,7 @@ function triangleCheck(a, b, c) {
 
 function hydrate(a) {
 
+
     let inteiros = (a.match(/\d+/g));
     let all = 0;
 
@@ -84,6 +102,7 @@ function hydrate(a) {
         return (all + ' copos de água');
 
     }
+
 }
 
 
