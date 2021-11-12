@@ -60,9 +60,35 @@ function triangleCheck(a, b, c) {
 }
 
 // Desafio 13
-function hydrate() {
-    // seu código aqui
+
+// Referências usadas para extrair números de strings:
+// https://www.w3schools.com/jsref/jsref_regexp_digit.asp
+// https://www.w3schools.com/jsref/jsref_regexp_onemore.asp
+
+// Referência de como converter String para Inteiro:
+// https://pt.stackoverflow.com/questions/134453/como-converter-uma-string-para-int-em-javascript
+
+
+function hydrate(a) {
+
+    let inteiros = (a.match(/\d+/g));
+    let all = 0;
+
+    for (let index in inteiros) {
+        all = all + Number(inteiros[index]);
+    }
+
+    if (all === 1) {
+        return (all + ' copo de água');
+    } else {
+        return (all + ' copos de água');
+
+    }
 }
+
+
+
+
 
 module.exports = {
     generatePhoneNumber,
